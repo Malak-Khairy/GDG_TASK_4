@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  min-height: 520px;
+  background-image: url("../Images/image-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 10%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h2 {
+  color: white;
+  font-size: 25px;
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.content {
+  margin-top: 110px;
+}
+.content h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 1.1;
+  border: 1px solid white;
+  padding: 10px 13px;
+  width: 390px;
+  height: 180px;
+}
+.all-section {
+  padding: 30px 10%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.img-div {
+  position: relative;
+  width: fit-content;
+}
+.img-div img {
+  width: 800px;
+  height: 490px;
+  display: block;
+}
+.content-div {
+  position: absolute;
+  bottom: 0;
+  right: -370px;
+  background-color: white;
+  width: 540px;
+  height: 230px;
+  padding: 50px;
+}
+.content-div h2 {
+  font-size: 33px;
+  padding-bottom: 10px;
+}
+.content-div p {
+  font-size: 18px;
+  line-height: 21px;
+  padding-top: 4px;
+}
+.creations {
+  padding: 30px 10%;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.creations h1 {
+  font-size: 20px;
+}
+.btn {
+  border: 1px solid black;
+  width: 90px;
+  height: 30px;
+  background-color: transparent;
+  color: black;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.parent {
+  position: relative;
+}
+.parent div img {
+  width: 291px;
+  height: 450px;
+}
+.child {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 55%;
+  height: 80px;
+  padding-left: 35px;
+}
+.child span {
+  color: rgb(249, 250, 251);
+  font-size: 24px;
+}
+footer {
+  background-color: black;
+}
+footer h2 {
+  color: white;
+  font-size: 22px;
+}
+footer ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  padding-top: 25px;
+}
+footer ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+.foot-content {
+  padding: 30px 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.foot-icons ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding-left: 77px;
+}
+.foot-icons ul li i {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+.foot-icons p {
+  color: gray;
+}
